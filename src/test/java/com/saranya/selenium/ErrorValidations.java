@@ -16,7 +16,7 @@ public class ErrorValidations extends BaseTest {
 	@Test
 	public void LoginErrorValidation() throws IOException, InterruptedException {
 
-		landingpage.loginApplication("saranya.14294@gmail.com", "Saranya15885@pasam");
+		landingpage.loginApplication("baaba@gmail.com", "baba1234@sdkjsk");
 
 		//// div[@aria-label='Incorrect email or password.']
 		// X path
@@ -30,7 +30,7 @@ public class ErrorValidations extends BaseTest {
 	
 	public void ProductErrorValidation() throws InterruptedException {
 		String productname="ZARA COAT 3";
-		ProductCatelogue productCatelogue = landingpage.loginApplication("babu@gmail.com", "Saranya1402@pasam");
+		ProductCatelogue productCatelogue = landingpage.loginApplication("bababs@gmail.com", "jjjsdhkjs@adksd");
 		List<WebElement> products = productCatelogue.getProducts();//driver.findElements(By.cssSelector(".mb-3"))
 		productCatelogue.addProductToCart(productname);
 		CartPageObject cartpageobject = productCatelogue.goToCartPage();
