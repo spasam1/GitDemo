@@ -36,6 +36,12 @@ public class ErrorValidations extends BaseTest {
 		CartPageObject cartpageobject = productCatelogue.goToCartPage();
 		Boolean match = cartpageobject.verifyDisplayProducts("ZARA COAT 33");
 		Assert.assertFalse(match);
+		
+		System.out.println("Learning GitHub.");
+		
+		System.out.println("Learning GitHub changes in GitDemo in git repo will automatically come to Gitstuff after push and pull");
+		
+		System.out.println("Push to GitHub");
 	}
 
 }
