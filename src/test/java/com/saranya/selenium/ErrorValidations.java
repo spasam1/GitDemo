@@ -42,6 +42,9 @@ public class ErrorValidations extends BaseTest {
 		System.out.println("Learning GitHub changes in GitDemo in git repo will automatically come to Gitstuff after push and pull");
 		
 		System.out.println("Push to GitHub");
+		
+		System.out.println("Pulled the code from GitHub by Gitstuff and making changes");
+		System.out.println("Pushed the code to GitHub by GitStuff");
 	}
 
 }
