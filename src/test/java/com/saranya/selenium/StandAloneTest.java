@@ -31,7 +31,7 @@ public class StandAloneTest extends BaseTest {
 	
 		
 		String productname="ZARA COAT 3";
-		ProductCatelogue productCatelogue = landingpage.loginApplication("saranya.14894@gmail.com", "Saranya1402@pasam");
+		ProductCatelogue productCatelogue = landingpage.loginApplication("baba@gmail.com", "baba@12345");
 		List<WebElement> products = productCatelogue.getProducts();//driver.findElements(By.cssSelector(".mb-3"))
 		productCatelogue.addProductToCart(productname);
 		CartPageObject cartpageobject = productCatelogue.goToCartPage();
@@ -42,6 +42,8 @@ public class StandAloneTest extends BaseTest {
 		ConfirmationPage confirmationpage = checkoutpage.submitOrder();
 		String confirmMessage = confirmationpage.getConfirmationMessage();
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+		
+		System.out.println("Working with child branch develop");
 		
 		
 		
