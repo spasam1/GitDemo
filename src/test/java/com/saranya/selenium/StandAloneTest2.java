@@ -27,8 +27,8 @@
 //		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 //		driver.get("https://rahulshettyacademy.com/client");
 //		driver.manage().window().maximize();
-//		driver.findElement(By.id("userEmail")).sendKeys("saranya.14894@gmail.com");
-//		driver.findElement(By.id("userPassword")).sendKeys("Saranya1402@pasam");
+//		driver.findElement(By.id("userEmail")).sendKeys("baba@gmail.com");
+//		driver.findElement(By.id("userPassword")).sendKeys("njkdsfjsdfk");
 //		driver.findElement(By.id("login")).click();
 //		
 //		
